@@ -10,8 +10,13 @@
     </graphicData>
     <size>(1,1)</size>
     <costList>
-      <Steel>1</Steel>
+      <Steel>700</Steel>
+      <Uranium>200</Uranium>
+      <Gold>100</Gold>
     </costList>
+    <researchPrerequisites>
+      <li>Microelectronics</li>
+    </researchPrerequisites>
     <designationCategory>Power</designationCategory>
     <comps>
       <li Class="CompProperties_Power">
