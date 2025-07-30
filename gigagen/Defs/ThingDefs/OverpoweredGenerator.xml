@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>GG_UltraGenerator</defName>
+    <label>ultra generator</label>
+    <description>A small generator that mysteriously outputs 100,000,000 W with no fuel or upkeep.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/SolarGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <designationCategory>Power</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <basePowerConsumption>-100000000</basePowerConsumption>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
